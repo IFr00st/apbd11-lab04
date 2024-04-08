@@ -99,7 +99,7 @@ public class UserServiceTests
         var result = userService.AddUser(
             "Jan",
             "Kowalski",
-            "kowalski@kowalcom",
+            "kowalski@kowal.com",
             DateTime.Parse("2007-01-01"),
             1
         );
@@ -119,9 +119,9 @@ public class UserServiceTests
 
         var result = userService.AddUser(
             "Jan",
-            null,
-            "kowalski@kowalcom",
-            DateTime.Parse("2007-01-01"),
+            "Kowalski",
+            "kowalski@kowal.com",
+            DateTime.Parse("2000-01-01"),
             1
         );
 
