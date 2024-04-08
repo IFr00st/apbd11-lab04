@@ -18,7 +18,7 @@ public class UserServiceTests
             "Kowalski",
             "kowalski@kowal.com",
             DateTime.Parse("2000-01-01"),
-            1
+            2
         );
 
         //Asert
@@ -38,7 +38,7 @@ public class UserServiceTests
             null,
             "kowalski@kowal.com",
             DateTime.Parse("2000-01-01"),
-            1
+            2
         );
 
         //Asert
@@ -58,7 +58,7 @@ public class UserServiceTests
             "Kowalski",
             "kowalskikowal.com",
             DateTime.Parse("2000-01-01"),
-            1
+            2
         );
 
         //Asert
@@ -80,7 +80,7 @@ public class UserServiceTests
             "Kowalski",
             "kowalski@kowalcom",
             DateTime.Parse("2000-01-01"),
-            1
+            2
         );
 
         //Asert
@@ -101,7 +101,7 @@ public class UserServiceTests
             "Kowalski",
             "kowalski@kowal.com",
             DateTime.Parse("2007-01-01"),
-            1
+            2
         );
 
         //Asert
