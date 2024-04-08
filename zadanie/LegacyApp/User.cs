@@ -23,7 +23,7 @@ namespace LegacyApp
                 using (var userCreditService = new UserCreditService())
                 {
                     int creditLimit = userCreditService.GetCreditLimit(LastName, DateOfBirth);
-                    creditLimit *= creditLimit;
+                    creditLimit = creditLimit * 2;
                     CreditLimit = creditLimit;
                 }
             }
